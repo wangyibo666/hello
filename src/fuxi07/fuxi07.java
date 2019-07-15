@@ -2,35 +2,35 @@ package fuxi07;
 import java.util.Scanner;
 
 public class fuxi07 {
-
+    hello
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ÉµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		Scanner scanner=new Scanner(System.in);
-		System.out.print("ÇëÊäÈëÒ»¸ö³É¼¨µÄµÈ¼¶(A/B/C/D/F):");
+		System.out.print("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½É¼ï¿½ï¿½ÄµÈ¼ï¿½(A/B/C/D/F):");
 		String degree=scanner.next();
 		
-		switch (degree) {//()ÖÐµÄ±í´ïÊ½»ò±äÁ¿µÄÖµ¸úÄÄ¸öcaseºóµÄÖµÏàÍ¬¾ÍÖ´ÐÐºóÃæµÄÓï¾ä£¬()ÖÐµÄ±í´ïÊ½»ò±äÁ¿µÄÖµÖ»ÄÜÊÇbyte/short/int/char/String
+		switch (degree) {//()ï¿½ÐµÄ±ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½Ä¸ï¿½caseï¿½ï¿½ï¿½Öµï¿½ï¿½Í¬ï¿½ï¿½Ö´ï¿½Ðºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ä£¬()ï¿½ÐµÄ±ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÖ»ï¿½ï¿½ï¿½ï¿½byte/short/int/char/String
 		case "A":
-			System.out.println("·ÖÊý>=90");
-			break;//Ìø³öswitch½á¹¹
+			System.out.println("ï¿½ï¿½ï¿½ï¿½>=90");
+			break;//ï¿½ï¿½ï¿½ï¿½switchï¿½á¹¹
 		case "B":
-			System.out.println("80<=·ÖÊý<90");
+			System.out.println("80<=ï¿½ï¿½ï¿½ï¿½<90");
 			break;
 		case "C":
-			System.out.println("70<=·ÖÊý<80");
+			System.out.println("70<=ï¿½ï¿½ï¿½ï¿½<80");
 			break;
 		case "D":
-			System.out.println("60<=·ÖÊý<70");
+			System.out.println("60<=ï¿½ï¿½ï¿½ï¿½<70");
 			break;
 		case "F":
-			System.out.println("·ÖÊý<60");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½<60");
 			break;
 		default:
-			System.out.println("Î´ÖªµÄµÈ¼¶£¡");
+			System.out.println("Î´Öªï¿½ÄµÈ¼ï¿½ï¿½ï¿½");
 			break;
-		}//Ã¿¸öcaseºóµÄÖµ²»ÔÊÐíÖØ¸´£»caseºóÃæµÄÖµÒ»¶¨ÒªÊÇ³£Á¿»ò³£Á¿Öµ,²»ÄÜÊÇ±äÁ¿;Ã¿¸öcaseºó¶¼Òª¸úÒ»¸öbreak¡£
+		}//Ã¿ï¿½ï¿½caseï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½caseï¿½ï¿½ï¿½ï¿½ï¿½ÖµÒ»ï¿½ï¿½Òªï¿½Ç³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ,ï¿½ï¿½ï¿½ï¿½ï¿½Ç±ï¿½ï¿½ï¿½;Ã¿ï¿½ï¿½caseï¿½ï¿½Òªï¿½ï¿½Ò»ï¿½ï¿½breakï¿½ï¿½
 		
-		System.out.println("³ÌÐòÖ´ÐÐÍê±Ï£¡");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½Ï£ï¿½");
 	}
 
 	}
